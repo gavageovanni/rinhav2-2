@@ -1,0 +1,17 @@
+spring:
+  r2dbc:
+    url: ${POSTGRES_HOST}
+    username: rinhav2
+    password: rinhav2
+#    pool:
+#      enabled: true
+#      initial-size: 1
+#      max-size: 4
+
+  jackson:
+    deserialization:
+      accept-float-as-int: false
+
+server:
+  port: 8080
+
